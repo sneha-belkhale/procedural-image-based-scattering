@@ -21,30 +21,30 @@ Open the Demo scene in the Unity project, and press play. You can move around th
 
 ### Parameter Overview
 
-**[ Basic ]**
+**Basic**
 
-**Reference Tex** - replace this image with the desired reference image. You should also replace the image in the `Base Plane` Material if you want to visualize the texture behind the generation.
+`Reference Tex` - replace this image with the desired reference image. You should also replace the image in the `Base Plane` Material if you want to visualize the texture behind the generation.
 
-**Cube Mat** - the material for the generated cubes. 
+`Cube Mat` - the material for the generated cubes. 
 
-**Starting Pos Helper** - the game object who's position determines the starting point of the algorithm. 
+`Starting Pos Helper` - the game object who's position determines the starting point of the algorithm. 
 
-**Generated Cube Count** - how many cubes to generate. 
+`Generated Cube Count`- how many cubes to generate. 
 
 
-**[ Scattering ]** 
+**Scattering** 
 
-**Flow Amount** - how much weight should be on the angular difference during minimization. 
+`Flow Amount` - how much weight should be on the angular difference during minimization. 
 
-**Step Size** - how far away the neighboring points should be sampled. 
+`Step Size` - how far away the neighboring points should be sampled. 
 Randomness - how much randomness to apply to the neighboring point sampling. 
 
 
-**[ Scaling ]**
+**Scaling**
 
-**Cubes To Balance** - the number of previous cubes to bring to equillibrium when calculating the current cube scale.
+`Cubes To Balance` - the number of previous cubes to bring to equillibrium when calculating the current cube scale.
 
-**Cycle Scale** - check this if you want the scales to be randomly cycled. 
+`Cycle Scale` - check this if you want the scales to be randomly cycled. 
 
 ## Results
 <img src ="https://user-images.githubusercontent.com/17795014/61326558-e42f1000-a7cb-11e9-911e-beb604c174d7.png" width="75%">
