@@ -26,8 +26,10 @@ Open the Demo scene in the Unity project, and press play. You can move around th
 **Reference Tex** - replace this image with the desired reference image. You should also replace the image in the `Base Plane` Material if you want to visualize the texture behind the generation.
 
 **Cube Mat** - the material for the generated cubes. 
-Starting Pos Helper - the game object who's position determines the starting point of the algorithm. 
-Generated Cube Count - how many cubes to generate. 
+
+**Starting Pos Helper** - the game object who's position determines the starting point of the algorithm. 
+
+**Generated Cube Count** - how many cubes to generate. 
 
 
 **[ Scattering ]** 
